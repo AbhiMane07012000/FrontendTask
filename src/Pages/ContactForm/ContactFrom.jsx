@@ -87,8 +87,8 @@ const ContactForm = () => {
   return (
     <div className="p-8 mx-auto lg:w-5/6 ring-2 bg-white-800 shadow-lg lg:rounded-lg font-[sans-serif] lg:mt-12 lg:mb-12">
       <h1 className="text-2xl text-black/90 text-center py-5">Contact Us</h1>
-      <div>
-        <div>
+      
+       
           <form onSubmit={handleSubmit} className="space-y-4">
             <input
               type="text"
@@ -158,8 +158,7 @@ const ContactForm = () => {
               Submit
             </button>
           </form>
-        </div>
-        <div>
+        
           {submittedData && (
             <div className="mt-8 p-4 bg-gray-400 rounded-lg">
               <h2 className="text-lg font-bold mb-4">Submitted Data</h2>
@@ -181,8 +180,7 @@ const ContactForm = () => {
             </div>
           )}
         </div>
-      </div>
-    </div>
+  
   );
 };
 
