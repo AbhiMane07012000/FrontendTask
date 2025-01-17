@@ -1,14 +1,13 @@
-import './App.css'
-import ContactFrom from './Pages/ContactForm/ContactFrom'
+import "./App.css";
+import ContactFrom from "./Pages/ContactForm/ContactFrom";
+
 
 function App() {
- 
-
   return (
     <>
-    <ContactFrom />
+      <ContactFrom />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
